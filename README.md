@@ -1,11 +1,11 @@
 # CTRAN: CNN-Transformer-based Network for Natural Language Understanding
-Implementation on pytorch as described in <https://arxiv.org/abs/2303.10606>.
+Implementation on pytorch as described in <https://www.sciencedirect.com/science/article/pii/S0952197623011971>.
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ctran-cnn-transformer-based-network-for/intent-detection-on-snips)](https://paperswithcode.com/sota/intent-detection-on-snips?p=ctran-cnn-transformer-based-network-for)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ctran-cnn-transformer-based-network-for/slot-filling-on-snips)](https://paperswithcode.com/sota/slot-filling-on-snips?p=ctran-cnn-transformer-based-network-for) <br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ctran-cnn-transformer-based-network-for/slot-filling-on-atis)](https://paperswithcode.com/sota/slot-filling-on-atis?p=ctran-cnn-transformer-based-network-for)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ctran-cnn-transformer-based-network-for/intent-detection-on-atis)](https://paperswithcode.com/sota/intent-detection-on-atis?p=ctran-cnn-transformer-based-network-for)
 ## Introduction
 ![CTran CNN Transformer Model Architecture](https://github.com/rafiep/CTran/raw/main/.images/ctran.png)
-We propose CTRAN, a novel CNN-Transformer-based encoder-decoder network. For the encoder, BERT is used as word embedding. Then, Convolutional layer is used on word embeddings and it's output is restructured using window feature sequence. The final part of the encoder is stacked Transformer encoders. The decoder comprises self-attention and a linear layer to produce output probabilities for Intent-detection. Finally, we propose Aligned Transformer Decoder followed by a fully connected layer for Slot-filling task.
+This repository contains CTRAN, a CNN-Transformer-based encoder-decoder network for join intent detection and slot filling. For the encoder, BERT is used as word embedding. Then, Convolutional operation is conducted on word embeddings and it's output is restructured using window feature sequence. The final part of the encoder is stacked Transformer encoders. The decoder comprises self-attention and a linear layer to produce output probabilities for intent detection. Finally, we propose Aligned Transformer Decoder followed by a fully connected layer for the slot filling task. For more information, please refer to the EAAI's article.
 ## Requirements
 - A Cuda capable GPU
 - Python

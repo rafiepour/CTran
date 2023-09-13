@@ -26,7 +26,7 @@ On the same setup, SNIPS training time is 119.5 seconds for each loop.
 ## Citation
 If you use any part of our code, please consider citing our paper as follows:
 ```
-@article{RAFIEPOUR2023107013,
+@article{Rafiepour2023,
 title = {CTRAN: CNN-Transformer-based network for natural language understanding},
 journal = {Engineering Applications of Artificial Intelligence},
 volume = {126},

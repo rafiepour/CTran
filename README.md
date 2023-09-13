@@ -26,11 +26,17 @@ On the same setup, SNIPS training time is 119.5 seconds for each loop.
 ## Citation
 If you use any part of our code, please consider citing our paper as follows:
 ```
-@article{rafiepour2023ctran,
-  title={CTRAN: CNN-Transformer-based Network for Natural Language Understanding},
-  author={Rafiepour, Mehrdad and Sartakhti, Javad Salimi},
-  journal={arXiv preprint arXiv:2303.10606},
-  year={2023}
+@article{RAFIEPOUR2023107013,
+title = {CTRAN: CNN-Transformer-based network for natural language understanding},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {126},
+pages = {107013},
+year = {2023},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2023.107013},
+url = {https://www.sciencedirect.com/science/article/pii/S0952197623011971},
+author = {Mehrdad Rafiepour and Javad Salimi Sartakhti},
+keywords = {Natural language understanding, Slot-filling, Intent-detection, Transformers, CNN - Transformer encoder, Aligned transformer decoder, BERT, ELMo}
 }
 ```
 
